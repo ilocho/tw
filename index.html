@@ -14,6 +14,7 @@
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,400i" rel="stylesheet">
 	<link rel="stylesheet" href="css/reveal.css">
 	<link rel="stylesheet" href="css/theme/black.css" id="theme">
+	<link rel="stylesheet" href="css/tw.css">
 
 	<!-- Theme used for syntax highlighting of code -->
 	<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -27,23 +28,16 @@
 	<div class="reveal">
 
 		<div class="slides">
-			
-			<section data-autoslide="8000" data-state="text-focus-in shadow" data-transition="zoom" data-transition-speed="slow" data-background="img/quote.jpg">
-				<p class="left">“All of us collect fortunes when we are children – a fortune of colors, of lights and darkness, of movements, of tensions.
-					Some of us have the fantastic chance to go back to this fortune when we are grown up.”</p>
-				<p class="right">Ingmar Bergman</p>
-			</section>
 
-			<section data-state="text-pop-up-top" data-transition="zoom-in slide-out" data-transition-speed="slow" data-background-transition="zoom"
-			    data-background="#333">
+			<section data-state="text-focus-in text-pop-up-top" data-transition="zoom-in slide-out" data-transition-speed="slow" data-background-transition="zoom"
+			    data-background="img/quote.jpg">
 				<h1>Thomas A. Walsh</h1>
 				<h3>Production Designer
 					<br>for Screen & Stage</h3>
 			</section>
 
-			<section data-transition="zoom" data-transition-speed="slow" data-background-transition="zoom"
-			    data-background="#333">
-				<p>Resume!</p>
+			<section data-transition="zoom" data-transition-speed="slow" data-background-transition="convex" data-background="img/paper.jpg">
+				<a href="img/resume.pdf" class="button1">VIEW RESUME</a>
 			</section>
 
 			<section>
@@ -56,27 +50,37 @@
 				</section>
 				<section data-transition="zoom">
 				</section>
-				<section data-transition="zoom">
-				</section>
-				<section data-transition="zoom">
-				</section>
-				<section data-transition="zoom">
-				</section>
 			</section>
 
 			<section data-background="#fff" data-background-image="img/bank-note.svg" data-background-size="100px" data-background-repeat="repeat">
-				<img src="img/artistry-logo.svg" width="300px">
-				<form action="https://formspree.io/ianscroggins@gmail.com" method="POST">
-					<span>NAME:</span>
-					<input type="text" name="name">
-					<br>
-					<br>
-					<span>EMAIL:</span>
-					<input type="email" name="_replyto">
-					<br>
-					<br>
-					<input type="submit" value="Send">
-				</form>
+				<style>
+					.container {
+						display: flex;
+					}
+
+					.col {
+						flex: 1;
+					}
+				</style>
+
+				<div class="container">
+					<div class="col left">
+						<img src="img/artistry-logo.svg" width="300px">
+						<p>800 South Robertson Blvd. Suite 6
+							<br>Los Angeles, CA 90035
+							<br>ph: 310 652 8778
+							<br>fax: 310 652 8772</p>
+
+					</div>
+					<div class="col left">
+						<form method="POST" action="https://formspree.io/ianscroggins@gmail.com">
+							<input type="email" name="email" placeholder="Your Email" />
+							<textarea name="message" placeholder="Your Message"></textarea>
+							<br>
+							<button type="submit">SEND</button>
+						</form>
+					</div>
+				</div>
 			</section>
 
 		</div>

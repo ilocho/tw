@@ -37,6 +37,20 @@ a.button1:hover {
     text-shadow: 0 0 2px #000, 0 0 8px #000, 0 0 14px #000, 0 0 20px #000;
 }
 
+.reveal span.show-title {
+	display: block;
+	position: absolute;
+    bottom: -600px;
+    left: -50px;
+	min-width:225px;
+	padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 24px; 
+	color: #fff;
+}
+
 .left {
     text-align: left;
 }

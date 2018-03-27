@@ -1,5 +1,5 @@
-.reveal p {
-    font-size: 24px;
+.contact p {
+    font-size: .6em;
 }
 
 a.button1 {
@@ -29,8 +29,21 @@ a.button1:hover {
     }
 }
 
+.title h1, .title h3 {
+    color: #00005A;
+    text-shadow: 0 0 2px #eee, 0 0 8px #eee, 0 0 14px #eee, 0 0 20px #eee;
+}
+
+.title h3 {
+    font-weight: 400;
+}
+
 .reveal h1.shadow {
     text-shadow: 0 0 2px #000, 0 0 8px #000, 0 0 14px #000, 0 0 20px #000;
+}
+
+.title .controls {
+    color: #00005A;
 }
 
 .reveal p.shadow {
@@ -59,61 +72,12 @@ a.button1:hover {
     text-align: right;
 }
 
-.gallery label {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-    text-align: center;
-}
-
-.kenburns-bottom-left {
-    -webkit-animation: kenburns-bottom-left 10s ease-out both;
-    animation: kenburns-bottom-left 10s ease-out both;
-}
-
-/*
-   * ----------------------------------------
-   * animation kenburns-bottom-left
-   * ----------------------------------------
-   */
-
-@-webkit-keyframes kenburns-bottom-left {
-    0% {
-        -webkit-transform: scale(1) translate(0, 0);
-        transform: scale(1) translate(0, 0);
-        -webkit-transform-origin: 16% 84%;
-        transform-origin: 16% 84%;
-    }
-    100% {
-        -webkit-transform: scale(1.25) translate(-20px, 15px);
-        transform: scale(1.25) translate(-20px, 15px);
-        -webkit-transform-origin: left bottom;
-        transform-origin: left bottom;
-    }
-}
-
-@keyframes kenburns-bottom-left {
-    0% {
-        -webkit-transform: scale(1) translate(0, 0);
-        transform: scale(1) translate(0, 0);
-        -webkit-transform-origin: 16% 84%;
-        transform-origin: 16% 84%;
-    }
-    100% {
-        -webkit-transform: scale(1.25) translate(-20px, 15px);
-        transform: scale(1.25) translate(-20px, 15px);
-        -webkit-transform-origin: left bottom;
-        transform-origin: left bottom;
-    }
-}
-
 textarea[name=message] {
     font-size: 15px;
     text-align: left;
     width: 80%;
     height: 175px;
     padding: 15px 15px;
-    margin: 8px 0;
     box-sizing: border-box;
     border: 5px solid #F05E30;
 }
@@ -138,7 +102,6 @@ button[type=submit] {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 24px;
-    margin: 4px 2px;
     cursor: pointer;
     border: 5px solid #F05E30;
 }

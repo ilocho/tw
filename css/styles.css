@@ -1,0 +1,142 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* VIDEO WRAPPER */
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    margin: 18px 0;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ACCORDION SLIDER */
+
+.accordion {
+    cursor: pointer;
+    padding: 45px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 42px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.accordion:after {
+    display: inline;
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 24px;
+    line-height: 24px;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+.active {
+    background-color: #ccc;
+}
+
+/* #longmire {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/longmire.jpg");
+    background-position: 30% 15%;
+    color: #fff;
+} */
+
+#longmire {
+    background: url("../img/longmire.jpg");
+    background-position: 30% 15%;
+    color: #fff;
+}
+
+#longmire:hover {
+    background-position: 40% 15%;
+}
+
+#longmire.active {
+    background-position: 40% 15%;
+}
+
+#graves {
+    background: url("../img/graves.jpg");
+    background-position: 30% 15%;
+    color: #fff;
+}
+
+#graves:hover {
+    background-position: 40% 15%;
+}
+
+#graves.active {
+    background-position: 40% 15%;
+}
+
+#dh {
+    background: url("../img/dh.jpg");
+    background-position: 30% 15%;
+    color: #fff;
+}
+
+#dh:hover {
+    background-position: 40% 15%;
+}
+
+#dh.active {
+    background-position: 40% 15%;
+}
+
+#tm {
+    background: url("../img/tm.jpg");
+    background-position: 30% 15%;
+    color: #fff;
+}
+
+#tm:hover {
+    background-position: 40% 15%;
+}
+
+#tm.active {
+    background-position: 40% 15%;
+}
+
+#bf {
+    background: url("../img/bf.jpg");
+    background-position: 30% 15%;
+    color: #fff;
+}
+
+#bf:hover {
+    background-position: 40% 15%;
+}
+
+#bf.active {
+    background-position: 40% 15%;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;

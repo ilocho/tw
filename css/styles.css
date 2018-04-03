@@ -65,73 +65,199 @@ body {
 } */
 
 #longmire {
-    background: url("../img/longmire.jpg");
-    background-position: 30% 15%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/longmire.jpg");
+    background-position: 35% 15%;
     color: #fff;
 }
 
 #longmire:hover {
-    background-position: 40% 15%;
+    background-position: 35% 35%;
 }
 
 #longmire.active {
-    background-position: 40% 15%;
+    background-position: 35% 35%;
 }
 
 #graves {
-    background: url("../img/graves.jpg");
-    background-position: 30% 15%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/graves.jpg");
+    background-position: 35% 15%;
     color: #fff;
 }
 
 #graves:hover {
-    background-position: 40% 15%;
+    background-position: 35% 50%;
 }
 
 #graves.active {
-    background-position: 40% 15%;
+    background-position: 35% 50%;
 }
 
 #dh {
-    background: url("../img/dh.jpg");
-    background-position: 30% 15%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/dh.jpg");
+    background-position: 50% 15%;
     color: #fff;
 }
 
 #dh:hover {
-    background-position: 40% 15%;
+    background-position: 50% 45%;
 }
 
 #dh.active {
-    background-position: 40% 15%;
+    background-position: 50% 45%;
 }
 
 #tm {
-    background: url("../img/tm.jpg");
-    background-position: 30% 15%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/tm.jpg");
+    background-position: 50% 15%;
     color: #fff;
 }
 
 #tm:hover {
-    background-position: 40% 15%;
+    background-position: 50% 60%;
 }
 
 #tm.active {
-    background-position: 40% 15%;
+    background-position: 50% 60%;
 }
 
 #bf {
-    background: url("../img/bf.jpg");
-    background-position: 30% 15%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/bf.jpg");
+    background-position: 50% 15%;
     color: #fff;
 }
 
 #bf:hover {
-    background-position: 40% 15%;
+    background-position: 50% 50%;
 }
 
 #bf.active {
-    background-position: 40% 15%;
+    background-position: 50% 50%;
+}
+
+#kingfish {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/kingfish.jpg");
+    background-position: 50% 15%;
+    color: #fff;
+}
+
+#kingfish:hover {
+    background-position: 50% 60%;
+}
+
+#kingfi::shadow {
+    background-position: 50% 60%;
+}
+
+#vws {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/vws.jpg");
+    background-position: 50% 10%;
+    color: #fff;
+}
+
+#vws:hover {
+    background-position: 50% 50%;
+}
+
+#vws.active {
+    background-position: 50% 50%;
+}
+
+#oldmen {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/oldmen.jpg");
+    background-position: 50% 25%;
+    color: #fff;
+}
+
+#oldmen:hover {
+    background-position: 50% 75%;
+}
+
+#oldmen.active {
+    background-position: 50% 75%;
+}
+
+#majestic {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/majestic.jpg");
+    background-position: 50% 20%;
+    color: #fff;
+}
+
+#majestic:hover {
+    background-position: 50% 45%;
+}
+
+#majestic.active {
+    background-position: 50% 45%;
+}
+
+#vampires {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/vampires.jpg");
+    background-position: 50% 10%;
+    color: #fff;
+}
+
+#vampires:hover {
+    background-position: 50% 40%;
+}
+
+#vampires.active {
+    background-position: 50% 40%;
+}
+
+#flipper {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/flipper.jpg");
+    background-position: 50% 20%;
+    color: #fff;
+}
+
+#flipper:hover {
+    background-position: 50% 50%;
+}
+
+#flipper.active {
+    background-position: 50% 50%;
+}
+
+#tht {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/tht.jpg");
+    background-position: 30% 20%;
+    color: #fff;
+}
+
+#tht:hover {
+    background-position: 30% 50%;
+}
+
+#tht.active {
+    background-position: 30% 50%;
+}
+
+#ml {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/ml.jpg");
+    background-position: 50% 15%;
+    color: #fff;
+}
+
+#ml:hover {
+    background-position: 50% 65%;
+}
+
+#ml.active {
+    background-position: 50% 65%;
+}
+
+#swtv {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/swtv.jpg");
+    background-position: 30% 10%;
+    color: #fff;
+}
+
+#swtv:hover {
+    background-position: 30% 50%;
+}
+
+#swtv.active {
+    background-position: 30% 50%;
 }
 
 .panel {

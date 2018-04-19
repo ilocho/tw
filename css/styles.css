@@ -7,20 +7,18 @@ body {
 /* VIDEO WRAPPER */
 
 .videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 */
-    padding-top: 25px;
-    margin: 18px 0;
-    height: 0;
+    display: block;
+    padding: 45px 18px;
+    margin: auto;
+    color: #fff;
 }
 
 .videoWrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    display: block;
+    padding: 45px 18px;
+    margin: auto;
+    width: 70vw;
+    color: #fff;
 }
 
 /* ACCORDION SLIDER */
@@ -248,21 +246,21 @@ body {
 
 #swtv {
     background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/swtv.jpg");
-    background-position: 30% 10%;
+    background-position: 50% 10%;
     color: #fff;
 }
 
 #swtv:hover {
-    background-position: 30% 50%;
+    background-position: 50% 45%;
 }
 
 #swtv.active {
-    background-position: 30% 50%;
+    background-position: 50% 45%;
 }
 
 .panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: #000;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;

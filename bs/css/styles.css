@@ -1,0 +1,74 @@
+.awards {
+    font-size: .75em;
+}
+#bubba > .collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+/* Work Styles */
+.btn-link {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.card-header {
+    height: 200px;
+}
+.card-body {
+    color: #FFF;
+    background-color: #000;
+}
+iframe {
+    display: block;
+    margin: 0 auto; 
+}
+#headingOne {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/longmire.jpg");
+    background-position: right;
+}
+#headingTwo {
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1), rgba(255, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/longmire.jpg");
+    background-position: right;
+}
+#headingThree {
+    background-color: blueviolet;
+}
+#headingFour {
+    background-color: brown;
+}
+#headingFive {
+    background-color: green;
+}
+#headingSix {
+    background-color: yellow;
+}
+#headingSeven {
+    background-color: pink;
+}
+#headingEight {
+    background-color: aqua;
+}
+#headingNine {
+    background-color: gray;
+}
+#headingTen {
+    background-color: goldenrod;
+}
+#headingEleven {
+    background-color: orange;
+}
+#headingTwelve {
+    background-color: orange;
+}
+#headingThirteen {
+    background-color: orange;
+}
+#headingFourteen {
+    background-color: orange;
+}
+
+/* Bio Styles */

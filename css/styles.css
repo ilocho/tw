@@ -6,7 +6,7 @@ body {
 nav {
     z-index: 10;
     overflow: hidden;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 1);
     position: fixed;
     top: 0;
     width: 100%;
@@ -15,16 +15,18 @@ nav {
 nav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #f1f1f1;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-family: "chippewa-falls", sans-serif;
+    font-size: 1.2rem;
 }
 
 hr {
+    margin-top: 2rem;
     background: #f1f1f1;
-    width: 50%;
+    width: 70%;
     height: 5px;
 }
 
@@ -40,34 +42,19 @@ hr {
     padding: 1rem 1rem;
 }
 
-.reveal {
-    z-index: -1;
-}
-
 /* VIDEO */
-
 /* Style the video: 100% width and height to cover the entire window */
-.video_contain {
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-}
-
-#myVideo {
-    position: fixed;
-    left: 0;
-    top: 0;
-    min-width: 100%;
-    min-height: 110%;
-}
 
 #tommy {
-    height: 90vh;
+    height: 100vh;
 }
 
-.testimonial {
+.about {
+    background: #000;
+    color: #f1f1f1;
+}
+
+.contact {
     background: #000;
     color: #f1f1f1;
 }
@@ -89,7 +76,7 @@ hr {
 .script {
     font-family: "lakeside",sans-serif;
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 3.5rem;
     color: #f1f1f1;
 }
 

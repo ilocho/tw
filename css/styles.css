@@ -1,266 +1,105 @@
-html,
 body {
     margin: 0;
     padding: 0;
 }
 
-/* VIDEO WRAPPER */
-
-.videoWrapper {
-    display: block;
-    padding: 45px 18px;
-    margin: auto;
-    color: #fff;
-}
-
-.videoWrapper iframe {
-    display: block;
-    padding: 45px 18px;
-    margin: auto;
-    width: 70vw;
-    color: #fff;
-}
-
-/* ACCORDION SLIDER */
-
-.accordion {
-    cursor: pointer;
-    padding: 45px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 42px;
-    text-transform: uppercase;
-    transition: 0.3s;
-}
-
-.accordion:after {
-    display: inline;
-    content: '\02795';
-    /* Unicode character for "plus" sign (+) */
-    font-size: 24px;
-    line-height: 24px;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: "\2796";
-    /* Unicode character for "minus" sign (-) */
-}
-
-.active {
-    background-color: #ccc;
-}
-
-/* #longmire {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/longmire.jpg");
-    background-position: 30% 15%;
-    color: #fff;
-} */
-
-#longmire {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/longmire.jpg");
-    background-position: 35% 15%;
-    color: #fff;
-}
-
-#longmire:hover {
-    background-position: 35% 35%;
-}
-
-#longmire.active {
-    background-position: 35% 35%;
-}
-
-#graves {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/graves.jpg");
-    background-position: 35% 15%;
-    color: #fff;
-}
-
-#graves:hover {
-    background-position: 35% 50%;
-}
-
-#graves.active {
-    background-position: 35% 50%;
-}
-
-#dh {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/dh.jpg");
-    background-position: 50% 15%;
-    color: #fff;
-}
-
-#dh:hover {
-    background-position: 50% 45%;
-}
-
-#dh.active {
-    background-position: 50% 45%;
-}
-
-#tm {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/tm.jpg");
-    background-position: 50% 15%;
-    color: #fff;
-}
-
-#tm:hover {
-    background-position: 50% 60%;
-}
-
-#tm.active {
-    background-position: 50% 60%;
-}
-
-#bf {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/bf.jpg");
-    background-position: 50% 15%;
-    color: #fff;
-}
-
-#bf:hover {
-    background-position: 50% 50%;
-}
-
-#bf.active {
-    background-position: 50% 50%;
-}
-
-#kingfish {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/kingfish.jpg");
-    background-position: 50% 15%;
-    color: #fff;
-}
-
-#kingfish:hover {
-    background-position: 50% 60%;
-}
-
-#kingfi::shadow {
-    background-position: 50% 60%;
-}
-
-#vws {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/vws.jpg");
-    background-position: 50% 10%;
-    color: #fff;
-}
-
-#vws:hover {
-    background-position: 50% 50%;
-}
-
-#vws.active {
-    background-position: 50% 50%;
-}
-
-#oldmen {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/oldmen.jpg");
-    background-position: 50% 25%;
-    color: #fff;
-}
-
-#oldmen:hover {
-    background-position: 50% 75%;
-}
-
-#oldmen.active {
-    background-position: 50% 75%;
-}
-
-#majestic {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/majestic.jpg");
-    background-position: 50% 20%;
-    color: #fff;
-}
-
-#majestic:hover {
-    background-position: 50% 45%;
-}
-
-#majestic.active {
-    background-position: 50% 45%;
-}
-
-#vampires {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/vampires.jpg");
-    background-position: 50% 10%;
-    color: #fff;
-}
-
-#vampires:hover {
-    background-position: 50% 40%;
-}
-
-#vampires.active {
-    background-position: 50% 40%;
-}
-
-#flipper {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/flipper.jpg");
-    background-position: 50% 20%;
-    color: #fff;
-}
-
-#flipper:hover {
-    background-position: 50% 50%;
-}
-
-#flipper.active {
-    background-position: 50% 50%;
-}
-
-#tht {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/tht.jpg");
-    background-position: 30% 20%;
-    color: #fff;
-}
-
-#tht:hover {
-    background-position: 30% 50%;
-}
-
-#tht.active {
-    background-position: 30% 50%;
-}
-
-#ml {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/ml.jpg");
-    background-position: 50% 15%;
-    color: #fff;
-}
-
-#ml:hover {
-    background-position: 50% 65%;
-}
-
-#ml.active {
-    background-position: 50% 65%;
-}
-
-#swtv {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/swtv.jpg");
-    background-position: 50% 10%;
-    color: #fff;
-}
-
-#swtv:hover {
-    background-position: 50% 45%;
-}
-
-#swtv.active {
-    background-position: 50% 45%;
-}
-
-.panel {
-    padding: 0 18px;
-    background-color: #000;
-    max-height: 0;
+nav {
+    z-index: 10;
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "chippewa-falls", sans-serif;
+}
+
+hr {
+    background: #f1f1f1;
+    width: 50%;
+    height: 5px;
+}
+
+.img-l {
+    margin: 1rem 2rem 0 0;
+}
+
+.img-r {
+    margin: 0 2rem 1rem 2rem;
+}
+
+.spacer {
+    padding: 1rem 1rem;
+}
+
+.reveal {
+    z-index: -1;
+}
+
+/* VIDEO */
+
+/* Style the video: 100% width and height to cover the entire window */
+.video_contain {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+#myVideo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 110%;
+}
+
+#tommy {
+    height: 90vh;
+}
+
+.testimonial {
+    background: #000;
+    color: #f1f1f1;
+}
+
+.content {
+    position: fixed;
+    top: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.text {
+    font-family: "chippewa-falls", sans-serif;
+    font-size: 5rem;
+    color: #f1f1f1;
+}
+
+.script {
+    font-family: "lakeside",sans-serif;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #f1f1f1;
+}
+
+.big {
+    font-family: "chippewa-falls", sans-serif;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #f1f1f1;
+}
+.awards {
+    font-size: .5rem;
+    line-height: .5rem;
+}

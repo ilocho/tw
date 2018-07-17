@@ -23,8 +23,14 @@ nav a {
     font-size: 1.2rem;
 }
 
-hr {
+.hr-one {
     margin-top: 2rem;
+    background: #f1f1f1;
+    width: 70%;
+    height: 5px;
+}
+
+.hr-two {
     background: #f1f1f1;
     width: 70%;
     height: 5px;

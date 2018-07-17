@@ -4,17 +4,15 @@
 <head>
 
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.typekit.net/vue7oyc.css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.typekit.net/vue7oyc.css" />
     <link rel="stylesheet" href="css/video.css" type="text/css" />
 
     <title>Thomas A. Walsh | Production Designer</title>
 
-    <script src="js/animsition.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -49,12 +47,10 @@
 </nav>
 
 <body>
-    <div class="video-background">
-        <div class="video-foreground">
-            <iframe src="https://www.youtube.com/embed/c9pQYOGIWM8?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1" frameborder="0"
-                allowfullscreen></iframe>
-        </div>
-    </div>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="video/swtv.mp4" type="video/mp4">
+    </video>
 
     <div id="tommy" class="d-flex flex-column justify-content-center align-items-center content">
         <span class="d-none d-md-block text">
@@ -63,7 +59,7 @@
             <p>production designer</p>
         </span>
     </div>
-    </div>
+
 </body>
 
 </html>

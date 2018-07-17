@@ -1,0 +1,11 @@
+h1 {
+    font-family: "chippewa-falls", sans-serif;
+    text-transform: lowercase;
+}
+button {
+    font-family: "chippewa-falls", sans-serif;
+    text-transform: lowercase;
+}
+.card {
+    background: #000;
+}

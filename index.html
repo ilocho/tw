@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/vue7oyc.css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
     <link rel="stylesheet" href="css/video.css" type="text/css" />
 
     <title>Thomas A. Walsh | Production Designer</title>
@@ -22,42 +23,41 @@
 
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="index.html">Thomas A. Walsh</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+<nav class=" navbar navbar-expand-lg navbar-dark ">
+    <a class="navbar-brand " href="index.html ">Thomas A. Walsh</a>
+    <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarText " aria-controls="navbarText "
+        aria-expanded="false " aria-label="Toggle navigation ">
+        <span class="navbar-toggler-icon "></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
+    <div class="collapse navbar-collapse " id="navbarText ">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">about</a>
+            <li class="nav-item ">
+                <a class="nav-link " href="about.html ">about</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="work.html">work</a>
+            <li class="nav-item ">
+                <a class="nav-link " href="work.html ">work</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="resume.html">resume</a>
+            <li class="nav-item ">
+                <a class="nav-link " href="resume.html ">resume</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">contact</a>
+            <li class="nav-item ">
+                <a class="nav-link " href="contact.html ">contact</a>
             </li>
         </ul>
     </div>
 </nav>
 
 <body>
-
-    <video autoplay muted loop id="myVideo">
-        <source src="video/swtv.mp4" type="video/mp4">
+    <div id="video-background">
+        <div id="overlay"></div>
+    <video autoplay loop id="video-background" muted plays-inline>
+        <source src="video/dh.mp4" type="video/mp4">
     </video>
-
-    <div id="tommy" class="d-flex flex-column justify-content-center align-items-center content">
-        <span class="d-none d-md-block text">
-            <p>&nbspThomas A. Walsh</p>
-            <hr class="hr-one">
-            <p>production designer</p>
-        </span>
+    </div>
+    <div id="tommy" class="d-none d-lg-flex flex-column align-items-center justify-content-center">
+        <p>&nbspThomas A. Walsh</p>
+        <hr class="hr-one ">
+        <p>production designer</p>
     </div>
 
 </body>

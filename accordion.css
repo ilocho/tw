@@ -1,11 +1,88 @@
 h1 {
     font-family: "chippewa-falls", sans-serif;
     text-transform: lowercase;
+    font-size: 3rem;
+    line-height: 2rem;
 }
-button {
-    font-family: "chippewa-falls", sans-serif;
-    text-transform: lowercase;
+
+.bump {
+    margin-bottom: 1.5rem;
 }
+
 .card {
+    color: #f1f1f1;
     background: #000;
+}
+
+.card-header {
+    height: 150px;
+    cursor: pointer;
+}
+
+.row {
+    margin-top: 1rem;
+}
+
+#headingLongmire {
+    background-image: url("../img/longmire2.jpg");
+    background-size: cover;
+}
+
+#headingGraves {
+    background-image: url("../img/graves3.jpg");
+    background-size: cover;
+}
+
+#headingDesperate {
+    background-image: url("../img/dh.jpg");
+    background-size: cover;
+}
+
+#headingSwtv {
+    background-image: url("../img/swtv.jpg");
+    background-size: cover;
+}
+
+#headingHandmaid {
+    background-image: url("../img/handmaid3.jpg");
+    background-size: cover;
+}
+
+#headingVietnam {
+    background-image: url("../img/vietnam1.jpg");
+    background-size: cover;
+}
+
+#headingFlipper {
+    background-image: url("../img/flipper1.jpg");
+    background-size: cover;
+}
+
+#headingMajestic {
+    background-image: url("../img/majestic1.jpg");
+    background-size: cover;
+}
+
+#headingNine {
+    background-image: url("../img/longmire1.jpg")
+}
+
+#headingTen {
+    background-image: url("../img/longmire1.jpg")
+}
+
+#headingEleven {
+    background-image: url("../img/longmire1.jpg")
+}
+
+#headingTwelve {
+    background-image: url("../img/longmire1.jpg")
+}
+
+#headingThirteen {
+    background-image: url("../img/longmire1.jpg")
+}
+
+#headingFourteen {
+    background-image: url("../img/longmire1.jpg")
 }

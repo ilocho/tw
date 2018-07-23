@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-    z-index: 10;
+    z-index: 4;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 1);
     position: fixed;
@@ -15,6 +15,7 @@ nav {
 }
 
 nav a {
+    z-index: 4;
     float: left;
     display: block;
     color: #f1f1f1;

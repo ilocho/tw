@@ -48,16 +48,19 @@ h1 {
     background-size: cover;
 }
 
-#headingSix {
-    background-image: url("../img/longmire1.jpg")
+#headingVietnam {
+    background-image: url("../img/vietnam1.jpg");
+    background-size: cover;
 }
 
-#headingSeven {
-    background-image: url("../img/longmire1.jpg")
+#headingFlipper {
+    background-image: url("../img/flipper1.jpg");
+    background-size: cover;
 }
 
-#headingEight {
-    background-image: url("../img/longmire1.jpg")
+#headingMajestic {
+    background-image: url("../img/majestic1.jpg");
+    background-size: cover;
 }
 
 #headingNine {
